@@ -1,1 +1,18 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/Libba.ArchTech.Core.Application/Libba.ArchTech.Core.Application.csproj" />
+    <Project Path="src/Core/Libba.ArchTech.Core.Domain/Libba.ArchTech.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/Libba.ArchTech.Infrastructure.Caching/Libba.ArchTech.Infrastructure.Caching.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/Persistance/">
+    <Project Path="src/Infrastructure/Persistance/Libba.ArchTech.Infrastructure.Persistance.EF/Libba.ArchTech.Infrastructure.Persistance.EF.csproj" />
+    <Project Path="src/Infrastructure/Persistance/Libba.ArchTech.Infrastructure.Persistance.RepoDb/Libba.ArchTech.Infrastructure.Persistance.RepoDb.csproj" />
+  </Folder>
+  <Folder Name="/src/Presantation/">
+    <Project Path="src/Presantation/Libba.ArchTech.Presantation.WebApi/Libba.ArchTech.Presantation.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
